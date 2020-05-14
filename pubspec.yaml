@@ -33,10 +33,15 @@ dependencies:
   provider: ^4.0.1
   url_launcher: ^5.4.1
   webview_flutter: 0.3.19+5
-  firebase_analytics: ^5.0.10
+  firebase_analytics: ^5.0.11
   firebase_core: ^0.4.3+2
   chewie: ^0.9.10
   video_player: ^0.10.10
+  flutter_downloader: ^1.4.4
+  permission_handler: ^5.0.0+hotfix.5
+  path_provider: ^1.6.7
+  progress_dialog: ^1.2.2
+  toast: ^0.1.5
 
 dev_dependencies:
   flutter_test:

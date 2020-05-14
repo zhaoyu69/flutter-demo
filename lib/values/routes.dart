@@ -98,6 +98,10 @@ class DefaultRoutes {
           ImageExample(Strings.imageExampleTitle),
       Strings.videoExampleRoute: (BuildContext context) =>
           VideoExample(Strings.videoExampleTitle),
+      Strings.permissionListRoute: (BuildContext context) =>
+          PermissionList(Strings.permissionListTitle),
+      Strings.downloadExampleRoute: (BuildContext context) =>
+          DownloadExample(Strings.downloadExampleTitle, Theme.of(context).platform),
     };
   }
 }

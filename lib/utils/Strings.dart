@@ -65,7 +65,8 @@ class Strings {
   static const String websocketExampleRoute = "/Websocket Example";
   static const String imageExampleRoute = "/Image Example";
   static const String videoExampleRoute = "/Video Example";
-
+  static const String downloadExampleRoute = "/Download Example";
+  static const String permissionListRoute = "/Permission List";
 
   ///Strings
   //Titles
@@ -123,4 +124,6 @@ class Strings {
   static const String websocketExampleTitle = "Websocket Example";
   static const String imageExampleTitle = "Image Example";
   static const String videoExampleTitle = "Video Example";
+  static const String downloadExampleTitle = "Download Example";
+  static const String permissionListTitle = "Permission List";
 }

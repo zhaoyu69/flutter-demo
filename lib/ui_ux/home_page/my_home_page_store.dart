@@ -65,7 +65,9 @@ abstract class _MyHomePageStore with Store {
       ExampleNames(Strings.admobPluginExample),
       ExampleNames(Strings.websocketExampleTitle),
       ExampleNames(Strings.imageExampleTitle),
-      ExampleNames(Strings.videoExampleTitle)
+      ExampleNames(Strings.videoExampleTitle),
+      ExampleNames(Strings.permissionListTitle),
+      ExampleNames(Strings.downloadExampleTitle),
     ]);
   }
 }

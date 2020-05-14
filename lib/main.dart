@@ -5,11 +5,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_playground/store/theme_store.dart';
 import 'package:provider/provider.dart';
+import 'package:flutter_downloader/flutter_downloader.dart';
 
 import 'my_app.dart';
 import 'values/imports.dart';
 
-void main() {
+void main() async{
+  await FlutterDownloader.initialize(debug: true);
   return runApp(
     Provider(
       create: (_) => ThemeStore(),

@@ -49,4 +49,6 @@ export 'package:flutter_playground/ui/wrap/wrap_example.dart';
 export 'package:flutter_playground/ui/websocket/websocket_example.dart';
 export 'package:flutter_playground/ui/image/image_example.dart';
 export 'package:flutter_playground/ui/video/video_example.dart';
+export 'package:flutter_playground/ui/permission/permission_list.dart';
+export 'package:flutter_playground/ui/download/download_example.dart';
 export 'package:flutter_playground/utils/Strings.dart';
